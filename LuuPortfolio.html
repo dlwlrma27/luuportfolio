@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Optionally include a Google Font if desired -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header with navigation -->
+  <header class="site-header">
+    <nav class="nav-container">
+      <div class="logo">
+        <!-- Replace with your logo image or text -->
+        <a href="#">YourLogo</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section: Fullscreen background image with overlay text -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <h1>Welcome to My World</h1>
+      <p>Designer. Developer. Creator.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="content-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I am a creative professional specializing in design and web development.
+        I focus on clean, modern designs that are both user-friendly and engaging.
+      </p>
+    </div>
+  </section>
+
+  <!-- Work/Portfolio Section -->
+  <section id="work" class="content-section">
+    <div class="container">
+      <h2>My Work</h2>
+      <div class="portfolio-grid">
+        <!-- Repeat these items for each project -->
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400" alt="Project 1">
+          <h3>Project 1</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400" alt="Project 2">
+          <h3>Project 2</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400" alt="Project 3">
+          <h3>Project 3</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="content-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="#" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
